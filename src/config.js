@@ -11,8 +11,8 @@ const config = {
   CORS_ORIGIN: process.env.CORS_ORIGIN || '*',
   BROWSER_WS_ENDPOINT: process.env.BROWSER_WS_ENDPOINT,
   BROWSER_EXECUTABLE_PATH: process.env.BROWSER_EXECUTABLE_PATH,
-  API_TOKENS: [],
-  ALLOW_URLS: [],
+  API_TOKENS: ['token'],
+  ALLOW_URLS: ['https://pdfmyurl.herokuapp.com'],
 };
 
 if (process.env.API_TOKENS) {
